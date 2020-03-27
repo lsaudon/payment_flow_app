@@ -1,2 +1,1 @@
-# payment_flow_app
- 
+# Greatly inspired by [Payment Process UI](https://dribbble.com/shots/6163149-Free-UI-kit-Payment-Process-System) of [Debobrata Debnath](https://twitter.com/debobratadesign)
