@@ -2,6 +2,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:paymentflowapp/pages/cart/cart_page.dart';
 
 class ProductSelectionPage extends StatefulWidget {
   @override
@@ -97,9 +98,8 @@ class ProductSummaryInformation extends StatelessWidget {
 class ProductCarousel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Expanded(
       child: CarouselSlider(
-        height: 238,
         viewportFraction: 0.60,
         enlargeCenterPage: true,
         enableInfiniteScroll: false,
@@ -135,7 +135,7 @@ class CarouselItem extends StatelessWidget {
           ),
           child: const Image(
             image: AssetImage('assets/images/image.jpg'),
-            fit: BoxFit.contain,
+            fit: BoxFit.scaleDown,
           ),
         ),
         Align(
@@ -246,7 +246,14 @@ class ProductPurchaseNow extends StatelessWidget {
                 color: const Color(0xffffffff),
               ),
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => CartPage(),
+                ),
+              );
+            },
           ),
           const SizedBox(height: 13),
           Row(

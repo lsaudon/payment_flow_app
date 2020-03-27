@@ -1,4 +1,4 @@
-#Fri Mar 27 19:52:01 CET 2020
-base.0=C\:\\Dev\\payment_flow_app\\mobile\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Fri Mar 27 21:16:46 CET 2020
+base.0=/home/lucas/Documents/GitHub/payment_flow_app/mobile/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
