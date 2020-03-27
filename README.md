@@ -2,7 +2,7 @@
 
 **Design**
 
-<img width="450" src="https://raw.githubusercontent.com/lsaudon/payment_flow_app/master/screenshot/design.png" />
+<img width="450" src="https://raw.githubusercontent.com/lsaudon/payment_flow_app/master/screenshot/design.PNG" />
 
 **App**
 
